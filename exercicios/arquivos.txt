@@ -1,0 +1,5 @@
+Escreva um programa que leia o nome, a nota1 e a nota2 de N alunos, calcule a média de cada aluno, e grave os resultados em dois arquivos distintos (aprovados e reprovados)
+
+Cada arquivo deve ter o seguinte formato
+
+Nome;Nota1;Nota2;Media
