@@ -6,6 +6,7 @@ charset-normalizer==3.3.2
 comm==0.2.2
 debugpy==1.8.1
 decorator==5.1.1
+exceptiongroup==1.2.0
 executing==2.0.1
 google-api-core==2.17.1
 google-api-python-client==2.122.0
@@ -14,8 +15,9 @@ google-auth-httplib2==0.2.0
 googleapis-common-protos==1.63.0
 httplib2==0.22.0
 idna==3.6
+importlib_metadata==7.1.0
 ipykernel==6.29.3
-ipython==8.22.2
+ipython==8.18.1
 jedi==0.19.1
 jupyter_client==8.6.1
 jupyter_core==5.7.2
@@ -27,6 +29,7 @@ pandas==2.2.1
 parso==0.8.3
 pexpect==4.9.0
 platformdirs==4.2.0
+plotly==5.20.0
 prompt-toolkit==3.0.43
 protobuf==4.25.3
 psutil==5.9.8
@@ -43,9 +46,12 @@ requests==2.31.0
 rsa==4.9
 six==1.16.0
 stack-data==0.6.3
+tenacity==8.2.3
 tornado==6.4
 traitlets==5.14.2
+typing_extensions==4.11.0
 tzdata==2024.1
 uritemplate==4.1.1
 urllib3==2.2.1
 wcwidth==0.2.13
+zipp==3.18.1
