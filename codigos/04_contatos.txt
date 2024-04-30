@@ -1,0 +1,17 @@
+create table contatos (
+  codigo integer primary key autoincrement,
+  nome text not null,
+  telefone text not null,
+  email text not null,
+  codigo_cidade integer not null
+);
+
+create table cidades (
+  codigo integer not null primary key autoincrement,
+  nome text not null,
+  uf text not null
+);
+
+alter table contatos 
+  add foreign key (codigo_cidade)
+  references cidades (codigo);
