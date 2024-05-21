@@ -40,8 +40,7 @@ def listar():
     query = "select id, nome, telefone from contatos order by nome;"
     cursor = cx.cursor()
     cursor.execute(query)
-    data = cursor.fetchall()
-    return data
+    return cursor.fetchall()
 
 def tabela(data):
   print("ID       Nome          Telefone")
